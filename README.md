@@ -19,7 +19,7 @@ python -m pip install.
 
 ### Download the pre-trained model
 
-Download our model in https://drive.google.com/file/d/1CfOVLWW7HPLQmndgJ15C70QgjV8UTYJu/view?usp=sharing and save it to ```./weights``` folder
+Download our [model](https://drive.google.com/file/d/1CfOVLWW7HPLQmndgJ15C70QgjV8UTYJu/view?usp=sharing) and save it to ```./weights``` folder
 
 ### Test the model
 
