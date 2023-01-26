@@ -32,7 +32,7 @@ Please ignore the reading images algorithm in ```test_integration.py```, and dir
 
 ## The results you will get by running the model
 
-You will get a dict including the frame level preditions, with the structure of"
+You will get a dict including the frame level preditions, with the structure of
 
 
 ```
@@ -51,4 +51,8 @@ You will get a dict including the frame level preditions, with the structure of"
 │── frame_id
 
 ```
+
+You will also get an array with a dimension of ```N * H * W * 3``` of the visualized frames with predicted bounding box in it.
+
+Notice the the keys of the dict should be equal or less than the input number of frames, including no empty predictions.
 
