@@ -30,4 +30,25 @@ python test_integration.py
 Please ignore the reading images algorithm in ```test_integration.py```, and directly use the ```predict``` function in it.
 
 
+## The results you will get by running the model
+
+You will get a dict including the frame level preditions, with the structure of"
+
+
+
+├── frame_id
+│   ├── object1
+│   │   ├── class
+│   │   └── confidence score
+|   |   └── bbox
+│   ├── object2
+│   │   ├── ......
+│   │   └── ......
+│   ├── object3
+│   │   ├── ......
+│   │   ├── ......
+│   ├   └── ......
+│── frame_id
+
+
 
