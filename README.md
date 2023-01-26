@@ -21,7 +21,7 @@ or run
 
 ```
 cd ./angel_system
-python -m pip install -e detectron2
+python -m pip install -e berkeley
 ```
 
 
