@@ -23,5 +23,11 @@ Download our [model](https://drive.google.com/file/d/1CfOVLWW7HPLQmndgJ15C70QgjV
 
 ### Test the model
 
+```
+python test_integration.py
+```
+
+Please ignore the reading images algorithm in (test_integration.py), and directly use the ```predict``` function in it.
+
 
 
