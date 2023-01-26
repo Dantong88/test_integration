@@ -17,6 +17,14 @@ cd ./angel_system/berkeley
 python -m pip install.
 ```
 
+or run
+
+```
+cd ./angel_system
+python -m pip install -e detectron2
+```
+
+
 ### Download the pre-trained model
 
 Download our [model](https://drive.google.com/file/d/1CfOVLWW7HPLQmndgJ15C70QgjV8UTYJu/view?usp=sharing) and save it to ```./weights``` folder
