@@ -54,5 +54,5 @@ You will get a dict including the frame level preditions, with the structure of
 
 You will also get an array with a dimension of ```N * H * W * 3``` of the visualized frames with predicted bounding box in it.
 
-Notice the the keys of the dict should be equal or less than the input number of frames, including no empty predictions.
+Notice that the keys of the dict should be equal or less than the input number of frames, including no empty predictions, but the visualized images should be the same number of the input images.
 
